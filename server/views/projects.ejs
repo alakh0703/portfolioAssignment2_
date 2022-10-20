@@ -1,0 +1,125 @@
+<!-- 
+  Name: Alakh Patel
+  Student ID: 301232383
+  Date: 30th Sept
+ -->
+ <%- include partials/header.ejs  %> 
+    <style>
+      .theme2 {
+        display: none;
+      }
+      .theme1:hover {
+        display: none;
+      }
+      .theme1:hover + .theme2 {
+        display: block;
+      }
+      .card_img {
+        width: 80%;
+        margin-left: 10%;
+        height: 200px;
+        margin-top: 20px;
+      }
+
+      .card {
+        margin: 10px;
+      }
+      .project_list {
+        width: 70%;
+        margin-left: 15%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    </style>
+
+   
+
+    <div class="project_list">
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top card_img theme1"
+          src="https://i.postimg.cc/nrHSCb96/calc-theme1.png"
+          alt="Card image cap"
+        />
+        <img
+        class="card-img-top card_img theme2"
+        src="https://i.postimg.cc/BbMYFYxt/calc-theme2.png"
+        alt="Card image cap"
+      />
+        
+        <div class="card-body">
+          <h5 class="card-title">Calculator with Theme change</h5>
+          <p class="card-text">
+            HTML, CSS, Javascript
+          </p>
+         <p>(Hover on the image)</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top card_img"
+          src="https://i.postimg.cc/c4L5WWS3/text-util.png"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Text-Utils</h5>
+          <p class="card-text">
+            This is text editor which performs basic editing like 'uppercase','lowercase', 'remove spaces', etc. <br><br>
+            HTML, CSS, Javascript, REACTjs
+          </p>
+         
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top card_img"
+          src="https://i.postimg.cc/qMDDMFJ5/tinfog.png"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Tindog</h5>
+          <p class="card-text">
+            This is the tinder for dogs.
+
+            <br>
+            <br>
+            HTML, CSS, Javascript
+          </p>
+         
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          class="card-img-top card_img"
+          src="https://i.postimg.cc/CMN691WY/tip.png"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Tip calculator</h5>
+          <p class="card-text">
+            HTML, CSS, Javascript
+          </p>
+         
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/general.js"></script>
+  </body>
+</html>
