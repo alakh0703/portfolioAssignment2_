@@ -6,8 +6,8 @@
     "start": "node ./www"
   },
   "engines": {
-    "node": "^18.9.1",
-    "npm": "^8.18.0"
+    "node": "18.8.0",
+    "npm": "8.18.0"
   },
   "dependencies": {
     "@types/connect-flash": "^0.0.37",
